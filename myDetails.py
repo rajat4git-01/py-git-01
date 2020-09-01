@@ -1,5 +1,5 @@
 #Details by Dev1:
-print("What is your name? ")
+print("What is your name? ", end="")
 myName= input()
 print(f"Hello, {myName}!")
 
@@ -10,8 +10,7 @@ print("Welcome to programming World","!"*10)
 #------------------------------------------------------
 
 #Code Added by Dev2:
-print("What is your age, {myName}?")
-myAge = input()
+myAge = input(f"What is your age {myName}? ")
 print("You will be",str(int(myAge)+1), "in a year.")
 
 #This is from Dev2
